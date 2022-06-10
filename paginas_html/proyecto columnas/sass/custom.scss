@@ -1,0 +1,35 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+$font-family-sans-serif: 'Barlow Semi Condensed', sans-serif;
+
+$primary:#733fc8;
+$success:#495568;
+$dark:#18202d;
+$secondary:#ffffff;
+
+@media (min-width: 992px) {
+        .alto-100 {
+            height: 100vh;
+
+        } 
+     }
+.d-flex img {
+    width: 50px;
+}
+.fondo-card{
+    background-image:url(/images/266211209_10209273639633323_3282919561644042304_n.jpg)
+    back
+}
+$container-max-widths:(
+    sm: 540px,
+    md: 720px,
+    lg: 950px,
+    xl: 950px,
+    xxl: 950px,
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";

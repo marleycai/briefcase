@@ -1,0 +1,199 @@
+/*===============Propiedades Globales================*/
+
+@importar  URL ( 'https://fonts.googleapis.com/css2?family=Montserrat&display=swap' );
+
+cuerpo {
+    familia de fuentes :  'Montserrat' , sans-serif;
+    desbordamiento-x : oculto;
+}
+
+
+/*===================MENU=========================*/
+
+ #menú  a ,  botón {
+     tamaño de fuente :  18 px  ! importante ;
+     peso de fuente :  600 ;
+
+}
+
+ # menú  un {
+     color : # 3f3f3f ;
+
+}
+/*===================SLIDER DE IMAGENES========================== */
+
+.carrusel-interior {
+    altura máxima : 39 rem  ! importante ;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN========================= =*/
+
+
+
+#img-equipo {
+    altura máxima : 30 rem  ! importante ;
+    ancho : 50 % ;
+}
+
+
+/*===================SECCION NUESTRO EQUIPO MAPA========================= =*/
+#locales {
+    margen superior : 50 px ;
+    color de fondo :  # f3f3f3 ;
+    pantalla : flexible;
+    justificar-contenido : centro;
+    relleno inferior :  300 px ;
+}
+
+.mapa {
+    fondo : url( ../img/mapa.png) ;
+    ancho : 100 % ;
+    altura : 500 píxeles ;
+}
+
+
+. contenedor-local {
+    ancho : 50 % ;
+    margen izquierdo : 100 px ;
+    relleno superior : 150 px ;
+}
+
+
+/*===========================SECCION EQUIPO MIAMI================== ================*/
+# numeros-locales {
+    margen : 0  ! importante ;
+    relleno : 0  ! importante ;
+}
+# numeros-local  div {
+    relleno :  0  20 px  0  0 ;   
+    alineación de texto : izquierda;
+    altura : 48 píxeles ;
+}
+
+# numeros-local  div : not ( : last-child ) {
+    borde derecho :  2 px sólido # 3f3f3f ;
+  }
+# numeros-local  div : not ( : first-child ) {
+    relleno-izquierda : 20 px ;
+  }
+
+# numeros-locales  p {
+    margen : 0 ;
+}
+
+/*========================ANTECEDENTES DE CONTACTOS===================== ===========*/
+
+# bg-contactos {
+    posición : relativa;
+    arriba :  -130 px ;
+}
+
+ # seccion-contacto {
+    color de fondo :  # 1b2a4e ;
+    altura mínima : 500 px ;
+    posición : relativa;
+}
+
+/*=========================FORMULARIO DE CONTACTOS===================== ===========*/
+
+# contenedor-formulario {
+    posición : absoluta;
+    arriba : 30 % ;
+    izquierda : 50 % ;
+    transformar :  traducir ( -50 % ,  -50 % );
+    fondo :  #fbfafa ; _
+    borde-radio : 5 px ;
+
+}
+
+# título-formulario {
+    color :  # 3f3f3f ;
+}
+
+
+
+
+/*======================== PIE DE PIE====================== ==========*/
+
+pie de página {
+    fondo :  # 1b2a4e ;
+    altura mínima :  100 px ;;
+}
+pie de página  p {
+    color : # f3f3f3 ;
+    alineación de texto : centro;
+}
+#iconos   i { _
+    tamaño de fuente :  26 px ;
+    relleno :  0  8 px ;
+    color : # f3f3f3 ;
+}
+
+/*=========================CONSULTAS DE MEDIOS PANTALLA ANCHA=================== =============*/
+
+@media ( ancho máximo : 1200 px ){
+    # intro ,  # equipo {
+        ancho : 90 %  !importante ;
+        margen : automático;
+    }
+
+    # locales {
+        envoltura flexible : envoltura;
+        relleno superior : 30 px ;
+   }
+   . contenedor-local {
+    ancho : 90 % ;
+    margen : automático;
+    relleno superior : 50 px ;    
+   }
+
+}
+/*=========================CONSULTA DE MEDIOS PANTALLA SM=================== =============*/
+
+
+@media ( ancho máximo : 768 px ) {
+
+    # intro ,  # equipo {
+        ancho : 90 %  !importante ;
+        margen : automático;
+    }
+
+
+    # img-equipo {
+        altura máxima : 20 rem  ! importante ;
+        ancho : 90 % ;
+    }
+    . contenedor-local {
+        ancho : 90 % ;
+        margen : automático;
+        relleno superior : 50 px ;    
+    }
+    # locales {
+        envoltura flexible : envoltura;
+    }
+    . mapa  img {
+        ancho : 100 % ;
+        altura : automático;
+    }
+    # bg-contactos {
+        arriba :  -120 px ;
+    }
+
+
+}
+/*=========================CONSULTA DE MEDIOS PANTALLA EXTRA-SM================= ===============*/
+
+@media ( ancho máximo :  576 px ) {
+    # servicios-fila-2 {
+        ancho : 100 %  !importante ;
+    }
+    # servicios-fila-1 {
+        ancho : 100 %  !importante ;
+    }
+
+    . icono-envoltura {
+        envoltura flexible: envoltura ! importante ;
+        justificar-contenido : centro !importante ;
+        alineación de texto : centro;
+    }
+} 
